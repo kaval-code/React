@@ -1,29 +1,15 @@
 import React from "react";
-import Heading from './Heading';
-import Paragraph from './Paragraph';
-import List, * as listElements from './List';
+import { add, sub, div, mul } from "./Cal"
 
 const App = () => {
   return (
     <>
-      <div className='box'>
-        <div id='head' className='child'>
-          <Heading />
-        </div>
-        <div id='para' className='child'>
-          <Paragraph />
-        </div>
-        <div id='list' className='child'>
-          <List />
-        </div>
-        <div id="list2">
-          <ul>
-            <li>{listElements.list2}</li>
-            <li>{listElements.list3}</li>
-            <li>{listElements.list4()}</li>
-          </ul>
-        </div>
-      </div>
+      <ul>
+        <li>Sum is : {add(20, 5)}</li>
+        <li>Sub is : {sub(20, 55)}</li>
+        <li>Div is : {div(20, 5)}</li>
+        <li>Mul is : {mul(20, 5)}</li>
+      </ul>
     </>
   );
 }
