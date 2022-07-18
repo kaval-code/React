@@ -8,7 +8,7 @@ const Card = (props) => {
                     <img src={props.imgsrc} alt=" image" width="500" height="500" />
                     <div className="imgInfo">
                         <h3 className="cardName">{props.name}</h3>
-                        <a href="" target="_blank" >open site</a>
+                        <p>{props.info}</p>
                     </div>
                 </div>
             </div>
