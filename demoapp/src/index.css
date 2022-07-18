@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing: border-box; */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.box {
+  background-image: linear-gradient(to right, rgb(121, 237, 127), rgb(93, 228, 206));
+  height: 100vh;
+  width: 100%;
+  color: rgb(252, 56, 125);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.child {
+  padding: 20px;
+}
+
+#para,
+#list {
+  color: black;
+  font-size: large;
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
